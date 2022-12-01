@@ -33,7 +33,3 @@ class ImdbSpider(scrapy.Spider):
         
 
         print("MOVIE:",response.meta.get("number"),response.meta.get("titulo"),response.meta.get("cast"),reviews)
-
-
-
-#directores=response.css(".sc-bfec09a1-8 li:nth-child(1) li a::text").getall()
